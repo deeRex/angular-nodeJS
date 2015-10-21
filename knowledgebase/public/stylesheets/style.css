@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+footer
+{
+	background:#333;
+	color:#fff;
+	height:40px;
+	padding: 10px 0;
+	text-align:center;
+}
+
+.heading{
+	background:#666;
+	color:#fff;
+	padding:5px;
+}
+
+.article{
+	border-bottom:#ccc solid 1px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}

@@ -1,0 +1,25 @@
+<div ng-controller="ArtistsCtrl">
+	<div ng-repeat="artist in artists">
+		<h2>
+			<a class="" href="#/artists/details/{{artist._id}}">
+			
+			{{artist.fname}} {{artist.lname}}
+			
+			</a>
+		</h2>
+
+		<ul>
+
+			<li>{{ artist.shop }}</li>
+			<li>{{ artist.style }}</li>
+			<li>{{ artist.subject }}</li>
+			<li>{{ artist.experience }}</li>
+
+		</ul>
+	</div>
+
+	<div ng-if="artists == false">
+					No artists, how sad : (
+				</div>
+
+</div>
